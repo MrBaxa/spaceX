@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.section_one {
+  height: 100vh;
+  background-color: antiquewhite;
+  position: relative;
+}
+.section_two {
+  height: 100vh;
+  background-color: aqua;
+}
+video {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  top: 0;
+  z-index: 1;
+}
+.wrapper_content {
+  top: 0;
+  z-index: 11;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  color: wheat;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  font-family: Arial;
+  font-size: 11.92px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+button {
+  margin-top: 10px;
+  width: 130px;
+  height: 50px;
+  top: 108.5px;
+  padding: 0px 42.07px 0px 42px;
+  gap: 0px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+}
+p {
+  font-family: Arial;
+  font-size: 17.19px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+h1 {
+  font-family: Arial;
+  font-size: 41.06px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.contant {
+  padding: 50px;
+}
+.section_two{
+  background-image: url(./Img.png);
+}
+.section_three{
+  height: 100vh;
+  background-image: url(./Img\ \(1\).png);
+}
+.section_four{
+  background-image: url(./Flight_4_Website_Desktop_3_ef4f400e2d.jpg.png);
+  height: 100vh;
+}
+.section_five{
+height: 100vh;
+background-image: url(./Img\ \(2\).png);
+}
+.section_six{
+  height: 100vh;
+  background-image: url(./Img\ \(3\).png);
+}
+.footer_ul{
+  padding: 20px;
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+}
